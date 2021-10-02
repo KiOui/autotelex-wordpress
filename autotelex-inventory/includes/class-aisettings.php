@@ -90,7 +90,7 @@ if ( ! class_exists( 'AISettings' ) ) {
 			add_settings_section(
 				'url_settings',
 				__( 'URL settings', 'autotelex-inventory' ),
-				'autotelex_inventory_url_settings_callback',
+				array( $this, 'autotelex_inventory_url_settings_callback' ),
 				'autotelex_inventory_settings'
 			);
 
