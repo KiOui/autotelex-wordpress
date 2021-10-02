@@ -130,6 +130,7 @@ if ( ! class_exists( 'AISettings' ) ) {
 		 */
 		public function autotelex_inventory_voorraadmodule_url_renderer() {
 			$options = get_option( 'autotelex_inventory_settings' ); ?>
+			<p><?php esc_html( __( 'The URL for the Voorraadmodule page (normally a subdomain of your website, such as https://voorraad.example.com/). The URL should end with a /.', 'autotelex-inventory' ) ); ?></p>
 			<input type='text' name='autotelex_inventory_settings[autotelex_inventory_url]'
 				   value="<?php echo esc_attr( $options['autotelex_inventory_url'] ); ?>">
 			<?php
@@ -141,6 +142,7 @@ if ( ! class_exists( 'AISettings' ) ) {
 		public function autotelex_inventory_voorraadmodule_seo_url_renderer() {
 			$options = get_option( 'autotelex_inventory_settings' );
 			?>
+			<p><?php esc_html( __( 'The SEO URL for the Voorraadmodule website (starting with https://www.voorraadmodule.nl/). The URL should end with a /.', 'autotelex-inventory' ) ); ?></p>
 			<input type='text' name='autotelex_inventory_settings[autotelex_inventory_seo_url]'
 				   value="<?php echo esc_attr( $options['autotelex_inventory_seo_url'] ); ?>">
 			<?php

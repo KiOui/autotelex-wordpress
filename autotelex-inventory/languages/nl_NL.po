@@ -1,0 +1,106 @@
+# Copyright (C) 2021 Lars van Rhijn
+# This file is distributed under the same license as the Autotelex Inventory plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Autotelex Inventory 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/autotelex-"
+"inventory\n"
+"POT-Creation-Date: 2021-10-02T06:46:28+00:00\n"
+"PO-Revision-Date: 2021-10-02 08:47+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: autotelex-inventory\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Autotelex Inventory"
+msgstr "Autotelex Inventory"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/KiOui/autotelex-wordpress"
+msgstr "https://github.com/KiOui/autotelex-wordpress"
+
+#. Description of the plugin
+msgid "A utility to add Autotelex inventory to Wordpress pages."
+msgstr "Een tool om Autotelex inventaris pagina’s toe te voegen aan Wordpress."
+
+#. Author of the plugin
+msgid "Lars van Rhijn"
+msgstr "Lars van Rhijn"
+
+#. Author URI of the plugin
+msgid "https://larsvanrhijn.nl/"
+msgstr "https://larsvanrhijn.nl/"
+
+#: includes/class-aicore.php:131
+msgid ""
+"Autotelex Inventory is not configured yet, please configure Autotelex "
+"inventory in the plugin settings before using it."
+msgstr ""
+"Autotelex Inventory is not niet geconfigureerd. Pas eerst de instellingen "
+"van Autotelex inventory aan voordat je het gebruikt."
+
+#: includes/class-aisettings.php:62 includes/class-aisettings.php:63
+msgid "Autotelex"
+msgstr "Autotelex"
+
+#: includes/class-aisettings.php:72
+msgid "Autotelex Dashboard"
+msgstr "Autotelex Dashboard"
+
+#: includes/class-aisettings.php:73
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/class-aisettings.php:92
+msgid "URL settings"
+msgstr "URL instellingen"
+
+#: includes/class-aisettings.php:99
+msgid "Voorraadmodule URL"
+msgstr "Voorraadmodule URL"
+
+#: includes/class-aisettings.php:107
+msgid "Voorraadmodule SEO URL"
+msgstr "Voorraadmodule SEO URL"
+
+#: includes/class-aisettings.php:133
+msgid ""
+"The URL for the Voorraadmodule page (normally a subdomain of your website, "
+"such as https://voorraad.example.com/). The URL should end with a /."
+msgstr ""
+"De URL voor de Voorraadmodule pagina (een subdomein van jouw website, zoals "
+"https://voorraad.example.nl/). De URL moet eindigen met een /."
+
+#: includes/class-aisettings.php:145
+msgid ""
+"The SEO URL for the Voorraadmodule website (starting with https://www."
+"voorraadmodule.nl/). The URL should end with a /."
+msgstr ""
+"De SEO URL voor de Voorraadmodule website (beginnend met https://"
+"voorraadmodule.nl/). De URL moet eindigen met een /."
+
+#: includes/class-aisettings.php:155
+msgid "Autotelex settings"
+msgstr "Autotelex instellingen"
+
+#: includes/class-aishortcode.php:92
+msgid ""
+"URL for shortcode not set, please configure the plugin settings for "
+"Autotelex Inventory first."
+msgstr ""
+"URL voor stortcode is niet geconfigureerd. Pas eerst de instellingen van "
+"Autotelex inventory aan voordat je het gebruikt."
+
+#: views/ai-admin-dashboard-view.php:10
+msgid "Autotelex Inventory Dashboard"
+msgstr "Autotelex Inventory Dashboard"
+
+#: views/ai-admin-dashboard-view.php:12
+msgid "Autotelex Inventory settings"
+msgstr "Autotelex Inventory instellingen"

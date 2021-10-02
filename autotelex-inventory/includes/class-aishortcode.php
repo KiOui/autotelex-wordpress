@@ -89,7 +89,7 @@ if ( ! class_exists( 'AIShortcode' ) ) {
 			} else {
 				?>
 				<div id="autotelex-inventory-wrapper-<?php echo esc_attr( $this->id ); ?>">
-					<p style="color: red"><?php echo esc_html( __( 'URL for shortcode not set, please configure hte plugin settings for Autotelex Inventory first.', 'autotelex-inventory' ) ); ?></p>
+					<p style="color: red"><?php echo esc_html( __( 'URL for shortcode not set, please configure the plugin settings for Autotelex Inventory first.', 'autotelex-inventory' ) ); ?></p>
 				</div>
 				<?php
 			}
