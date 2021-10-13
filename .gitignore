@@ -9,3 +9,5 @@ composer.phar
 .DS_Store
 
 wordpress
+
+.idea
